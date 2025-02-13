@@ -2,8 +2,7 @@
 // Created by Endie on 04.02.2025.
 //
 #include "messages.h"
-#include "variables.h"
-#include "stdio.h"
+
 
 void HelloMessage(){
   char version[50];
