@@ -6,4 +6,4 @@ Project designed and development by FoxStudios from 2024
 
 STM32F103C8T6 - devkit
 
-docs in `doc` directory
+docs in [doc](./doc) directory
