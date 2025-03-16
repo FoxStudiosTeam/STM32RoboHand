@@ -7,6 +7,8 @@
 #include "ssd1306.h"
 #include "ssd1306_fonts.h"
 #include "stdlib.h"
+#include "variables.h"
+#include "stdio.h"
 
 void HelloMessage();
 

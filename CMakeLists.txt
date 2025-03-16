@@ -6,7 +6,7 @@ cmake_minimum_required(VERSION 3.30)
 # specify cross-compilers and tools
 set(CMAKE_C_COMPILER arm-none-eabi-gcc)
 set(CMAKE_CXX_COMPILER arm-none-eabi-g++)
-set(CMAKE_ASM_COMPILER  arm-none-eabi-gcc)
+set(CMAKE_ASM_COMPILER arm-none-eabi-gcc)
 set(CMAKE_AR arm-none-eabi-ar)
 set(CMAKE_OBJCOPY arm-none-eabi-objcopy)
 set(CMAKE_OBJDUMP arm-none-eabi-objdump)
@@ -55,8 +55,10 @@ include_directories(
         Drivers/STM32F1xx_HAL_Driver/Inc
         Drivers/CMSIS/Device/ST/STM32F1xx/Include
         Drivers/OLED1306/Inc
-        Drivers/CMSIS/Include Middlewares/Third_Party/FreeRTOS/Source/include
-        Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3)
+        Drivers/CMSIS/Include
+        Middlewares/Third_Party/FreeRTOS/Source/include
+        Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS
+        Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3)
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB)
 
