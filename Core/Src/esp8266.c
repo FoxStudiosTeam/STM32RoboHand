@@ -17,7 +17,7 @@ void setup(ESP_8266 *esp8266) {
 
   ESP_8266_GPIO_HELPER_STRUCT b15 = {
        .group = GPIOB,
-       .pin = GPIO_PIN_13,
+       .pin = GPIO_PIN_15,
    };
 
   ESP_8266 local = {
